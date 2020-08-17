@@ -1,0 +1,1563 @@
+Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+Maven home: /usr/local/maven/apache-maven-3.6.3
+Java version: 1.8.0_151, vendor: Oracle Corporation, runtime: /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre
+Default locale: zh_CN, platform encoding: UTF-8
+OS name: "mac os x", version: "10.15.5", arch: "x86_64", family: "mac"
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.annotation.* < plexus.core
+[DEBUG]   Imported: javax.annotation.security.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.inject.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.util.* < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.fusesource.jansi.* < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.slf4j.event.* < plexus.core
+[DEBUG]   Imported: org.slf4j.helpers.* < plexus.core
+[DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+[DEBUG] Populating class realm maven.api
+[INFO] Error stacktraces are turned on.
+[DEBUG] Message scheme: color
+[DEBUG] Message styles: debug info warning error success failure strong mojo project
+[DEBUG] Reading global settings from /usr/local/maven/apache-maven-3.6.3/conf/settings.xml
+[DEBUG] Reading user settings from /Users/wangzy/.m2/settings.xml
+[DEBUG] Reading global toolchains from /usr/local/maven/apache-maven-3.6.3/conf/toolchains.xml
+[DEBUG] Reading user toolchains from /Users/wangzy/.m2/toolchains.xml
+[DEBUG] Using local repository at /Users/wangzy/.m2/repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for /Users/wangzy/.m2/repository
+[INFO] Scanning for projects...
+[DEBUG] Skipped remote request for zuyu.wzy:mavenproject:1.0.0-SNAPSHOT/maven-metadata.xml locally installed metadata up-to-date.
+[DEBUG] Skipped remote request for zuyu.wzy:mavenproject:1.0.0-SNAPSHOT/maven-metadata.xml locally installed metadata up-to-date.
+[DEBUG] Extension realms for project zuyu.wzy:mavenproject:pom:1.0.1-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project zuyu.wzy:moduleone:jar:1.0.1-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project zuyu.wzy:moduletwo:jar:1.0.0-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project zuyu.wzy:mavenproject:pom:1.0.0-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project zuyu.wzy:modulethree:jar:1.0.0-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project zuyu.wzy:mavenproject:pom:1.0.0-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project zuyu.wzy:modulefour:jar:1.0.0-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project zuyu.wzy:mavenproject:pom:1.0.0-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project zuyu.wzy:moduleFive:jar:1.0.0-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project zuyu.wzy:mavenproject:pom:1.0.0-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] mavenproject                                                       [pom]
+[INFO] moduleone                                                          [jar]
+[INFO] moduletwo                                                          [jar]
+[INFO] modulethree                                                        [jar]
+[INFO] modulefour                                                         [jar]
+[INFO] moduleFive                                                         [jar]
+[DEBUG] Resolving plugin prefix dependency from [org.apache.maven.plugins, org.codehaus.mojo]
+[DEBUG] Resolved plugin prefix dependency to org.apache.maven.plugins:maven-dependency-plugin from POM zuyu.wzy:mavenproject:pom:1.0.1-SNAPSHOT
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: zuyu.wzy:mavenproject:pom:1.0.1-SNAPSHOT
+[DEBUG] Tasks:   [compile, dependency:tree]
+[DEBUG] Style:   Regular
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Project: zuyu.wzy:moduleone:jar:1.0.1-SNAPSHOT
+[DEBUG] Tasks:   [compile, dependency:tree]
+[DEBUG] Style:   Regular
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Project: zuyu.wzy:moduletwo:jar:1.0.0-SNAPSHOT
+[DEBUG] Tasks:   [compile, dependency:tree]
+[DEBUG] Style:   Regular
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Project: zuyu.wzy:modulethree:jar:1.0.0-SNAPSHOT
+[DEBUG] Tasks:   [compile, dependency:tree]
+[DEBUG] Style:   Regular
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Project: zuyu.wzy:modulefour:jar:1.0.0-SNAPSHOT
+[DEBUG] Tasks:   [compile, dependency:tree]
+[DEBUG] Style:   Regular
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Project: zuyu.wzy:moduleFive:jar:1.0.0-SNAPSHOT
+[DEBUG] Tasks:   [compile, dependency:tree]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] -----------------------< zuyu.wzy:mavenproject >------------------------
+[INFO] Building mavenproject 1.0.1-SNAPSHOT                               [1/6]
+[INFO] --------------------------------[ pom ]---------------------------------
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Resolving plugin prefix dependency from [org.apache.maven.plugins, org.codehaus.mojo]
+[DEBUG] Resolved plugin prefix dependency to org.apache.maven.plugins:maven-dependency-plugin from POM zuyu.wzy:mavenproject:pom:1.0.1-SNAPSHOT
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       zuyu.wzy:mavenproject:1.0.1-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [test]
+[DEBUG] Repositories (dependencies): [cnooc (http://nexus.app-dice.cnooc/repository/maven-public/, default, releases+snapshots), terminus (https://repo.terminus.io/content/groups/public/, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [terminus (https://repo.terminus.io/content/groups/public/, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-dependency-plugin:2.8:tree (default-cli)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <appendOutput default-value="false">${appendOutput}</appendOutput>
+  <excludes>${excludes}</excludes>
+  <includes>${includes}</includes>
+  <localRepository default-value="${localRepository}"/>
+  <output>${output}</output>
+  <outputFile>${outputFile}</outputFile>
+  <outputType default-value="text">${outputType}</outputType>
+  <scope>${scope}</scope>
+  <skip default-value="false">${skip}</skip>
+  <tokens default-value="standard">${tokens}</tokens>
+  <verbose default-value="false">${verbose}</verbose>
+  <project default-value="${project}"/>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=468256, ConflictMarker.markTime=296174, ConflictMarker.nodeCount=3, ConflictIdSorter.graphTime=277704, ConflictIdSorter.topsortTime=228058, ConflictIdSorter.conflictIdCount=2, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=2299673, ConflictResolver.conflictItemCount=2, DefaultDependencyCollector.collectTime=12716420, DefaultDependencyCollector.transformTime=5257386}
+[DEBUG] zuyu.wzy:mavenproject:pom:1.0.1-SNAPSHOT
+[DEBUG]    junit:junit:jar:4.12:compile
+[DEBUG]       org.hamcrest:hamcrest-core:jar:1.3:compile
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ mavenproject ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=1055180, ConflictMarker.markTime=352853, ConflictMarker.nodeCount=297, ConflictIdSorter.graphTime=315218, ConflictIdSorter.topsortTime=46096, ConflictIdSorter.conflictIdCount=63, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=6039904, ConflictResolver.conflictItemCount=167, DefaultDependencyCollector.collectTime=427565263, DefaultDependencyCollector.transformTime=7908389}
+[DEBUG] org.apache.maven.plugins:maven-dependency-plugin:jar:2.8
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.9:compile
+[DEBUG]       commons-cli:commons-cli:jar:1.0:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.9:compile
+[DEBUG]       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-artifact-manager:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-repository-metadata:jar:2.0.9:compile
+[DEBUG]    org.apache.maven.reporting:maven-reporting-api:jar:3.0:compile
+[DEBUG]    org.apache.maven.reporting:maven-reporting-impl:jar:2.0.5:compile
+[DEBUG]       org.apache.maven.doxia:doxia-core:jar:1.0:compile
+[DEBUG]       org.apache.maven.shared:maven-doxia-tools:jar:1.0.2:compile
+[DEBUG]          commons-io:commons-io:jar:1.4:compile
+[DEBUG]       commons-validator:commons-validator:jar:1.2.0:compile
+[DEBUG]          commons-beanutils:commons-beanutils:jar:1.7.0:compile
+[DEBUG]          commons-digester:commons-digester:jar:1.6:compile
+[DEBUG]          commons-logging:commons-logging:jar:1.0.4:compile
+[DEBUG]          oro:oro:jar:2.0.8:compile
+[DEBUG]          xml-apis:xml-apis:jar:1.0.b2:compile
+[DEBUG]    org.apache.maven.doxia:doxia-sink-api:jar:1.0:compile
+[DEBUG]    org.apache.maven.doxia:doxia-site-renderer:jar:1.0:compile
+[DEBUG]       org.codehaus.plexus:plexus-i18n:jar:1.0-beta-7:compile
+[DEBUG]       org.codehaus.plexus:plexus-velocity:jar:1.1.7:compile
+[DEBUG]       org.apache.velocity:velocity:jar:1.5:compile
+[DEBUG]       org.apache.maven.doxia:doxia-decoration-model:jar:1.0:compile
+[DEBUG]       org.apache.maven.doxia:doxia-module-apt:jar:1.0:compile
+[DEBUG]       org.apache.maven.doxia:doxia-module-fml:jar:1.0:compile
+[DEBUG]       org.apache.maven.doxia:doxia-module-xdoc:jar:1.0:compile
+[DEBUG]       org.apache.maven.doxia:doxia-module-xhtml:jar:1.0:compile
+[DEBUG]    org.codehaus.plexus:plexus-archiver:jar:2.3:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0.9:compile
+[DEBUG]    org.apache.maven.shared:file-management:jar:1.2.1:compile
+[DEBUG]       org.apache.maven.shared:maven-shared-io:jar:1.1:compile
+[DEBUG]          org.apache.maven.wagon:wagon-provider-api:jar:1.0-alpha-6:compile
+[DEBUG]    org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]       junit:junit:jar:3.8.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-io:jar:2.0.6:compile
+[DEBUG]    org.apache.maven.shared:maven-dependency-analyzer:jar:1.4:compile
+[DEBUG]       asm:asm:jar:3.3.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile (version managed from default)
+[DEBUG]    org.apache.maven.shared:maven-dependency-tree:jar:2.1:compile
+[DEBUG]       org.eclipse.aether:aether-util:jar:0.9.0.M2:compile
+[DEBUG]    org.apache.maven.shared:maven-common-artifact-filters:jar:1.4:compile
+[DEBUG]    org.apache.maven.shared:maven-invoker:jar:2.0.11:compile
+[DEBUG]    commons-lang:commons-lang:jar:2.6:compile
+[DEBUG]    commons-collections:commons-collections:jar:3.2.1:compile
+[DEBUG]    classworlds:classworlds:jar:1.1:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-dependency-plugin:2.8
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-dependency-plugin:2.8
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-dependency-plugin:2.8
+[DEBUG]   Included: org.apache.maven.plugins:maven-dependency-plugin:jar:2.8
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:3.0
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-impl:jar:2.0.5
+[DEBUG]   Included: org.apache.maven.doxia:doxia-core:jar:1.0
+[DEBUG]   Included: org.apache.maven.shared:maven-doxia-tools:jar:1.0.2
+[DEBUG]   Included: commons-io:commons-io:jar:1.4
+[DEBUG]   Included: commons-validator:commons-validator:jar:1.2.0
+[DEBUG]   Included: commons-beanutils:commons-beanutils:jar:1.7.0
+[DEBUG]   Included: commons-digester:commons-digester:jar:1.6
+[DEBUG]   Included: commons-logging:commons-logging:jar:1.0.4
+[DEBUG]   Included: oro:oro:jar:2.0.8
+[DEBUG]   Included: xml-apis:xml-apis:jar:1.0.b2
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.0
+[DEBUG]   Included: org.apache.maven.doxia:doxia-site-renderer:jar:1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-i18n:jar:1.0-beta-7
+[DEBUG]   Included: org.codehaus.plexus:plexus-velocity:jar:1.1.7
+[DEBUG]   Included: org.apache.velocity:velocity:jar:1.5
+[DEBUG]   Included: org.apache.maven.doxia:doxia-decoration-model:jar:1.0
+[DEBUG]   Included: org.apache.maven.doxia:doxia-module-apt:jar:1.0
+[DEBUG]   Included: org.apache.maven.doxia:doxia-module-fml:jar:1.0
+[DEBUG]   Included: org.apache.maven.doxia:doxia-module-xdoc:jar:1.0
+[DEBUG]   Included: org.apache.maven.doxia:doxia-module-xhtml:jar:1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-archiver:jar:2.3
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.9
+[DEBUG]   Included: org.apache.maven.shared:file-management:jar:1.2.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-io:jar:1.1
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-io:jar:2.0.6
+[DEBUG]   Included: org.apache.maven.shared:maven-dependency-analyzer:jar:1.4
+[DEBUG]   Included: asm:asm:jar:3.3.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   Included: org.apache.maven.shared:maven-dependency-tree:jar:2.1
+[DEBUG]   Included: org.eclipse.aether:aether-util:jar:0.9.0.M2
+[DEBUG]   Included: org.apache.maven.shared:maven-common-artifact-filters:jar:1.4
+[DEBUG]   Included: org.apache.maven.shared:maven-invoker:jar:2.0.11
+[DEBUG]   Included: commons-lang:commons-lang:jar:2.6
+[DEBUG]   Included: commons-collections:commons-collections:jar:3.2.1
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-dependency-plugin:2.8:tree from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-dependency-plugin:2.8, parent: sun.misc.Launcher$AppClassLoader@55f96302]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-dependency-plugin:2.8:tree' with basic configurator -->
+[DEBUG]   (f) appendOutput = false
+[DEBUG]   (f) localRepository =       id: local
+      url: file:///Users/wangzy/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) outputType = text
+[DEBUG]   (s) skip = false
+[DEBUG]   (f) tokens = standard
+[DEBUG]   (f) verbose = true
+[DEBUG]   (f) project = MavenProject: zuyu.wzy:mavenproject:1.0.1-SNAPSHOT @ /Users/wangzy/IdeaProjects/wzy/mavenproject/pom.xml
+[DEBUG] -- end configuration --
+[DEBUG] Dependency tree resolution listener events:
+[DEBUG] testArtifact: artifact=zuyu.wzy:mavenproject:pom:1.0.1-SNAPSHOT
+[DEBUG] includeArtifact: artifact=zuyu.wzy:mavenproject:pom:1.0.1-SNAPSHOT
+[DEBUG] startProcessChildren: artifact=zuyu.wzy:mavenproject:pom:1.0.1-SNAPSHOT
+[DEBUG]   testArtifact: artifact=junit:junit:jar:4.12:compile
+[DEBUG]   includeArtifact: artifact=junit:junit:jar:4.12:compile
+[DEBUG]   startProcessChildren: artifact=junit:junit:jar:4.12:compile
+[DEBUG]     testArtifact: artifact=org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]     includeArtifact: artifact=org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]     startProcessChildren: artifact=org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]     endProcessChildren: artifact=org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]   endProcessChildren: artifact=junit:junit:jar:4.12:compile
+[DEBUG] endProcessChildren: artifact=zuyu.wzy:mavenproject:pom:1.0.1-SNAPSHOT
+[INFO] zuyu.wzy:mavenproject:pom:1.0.1-SNAPSHOT
+[INFO] \- junit:junit:jar:4.12:compile
+[INFO]    \- org.hamcrest:hamcrest-core:jar:1.3:compile
+[INFO] 
+[INFO] -------------------------< zuyu.wzy:moduleone >-------------------------
+[INFO] Building moduleone 1.0.1-SNAPSHOT                                  [2/6]
+[INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Resolving plugin prefix dependency from [org.apache.maven.plugins, org.codehaus.mojo]
+[DEBUG] Resolved plugin prefix dependency to org.apache.maven.plugins:maven-dependency-plugin from POM zuyu.wzy:moduleone:jar:1.0.1-SNAPSHOT
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       zuyu.wzy:moduleone:1.0.1-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [compile, test]
+[DEBUG] Repositories (dependencies): [cnooc (http://nexus.app-dice.cnooc/repository/maven-public/, default, releases+snapshots), terminus (https://repo.terminus.io/content/groups/public/, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [terminus (https://repo.terminus.io/content/groups/public/, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.6:resources (default-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <supportMultiLineFiltering default-value="false">${maven.resources.supportMultiLineFiltering}</supportMultiLineFiltering>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <classpathElements default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.compileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution>${mojoExecution}</mojoExecution>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <projectArtifact default-value="${project.artifact}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skipMain>${maven.main.skip}</skipMain>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.5">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">${maven.compiler.target}</target>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+  <mavenSession default-value="${session}"/>
+  <session default-value="${session}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-dependency-plugin:2.8:tree (default-cli)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <appendOutput default-value="false">${appendOutput}</appendOutput>
+  <excludes>${excludes}</excludes>
+  <includes>${includes}</includes>
+  <localRepository default-value="${localRepository}"/>
+  <output>${output}</output>
+  <outputFile>${outputFile}</outputFile>
+  <outputType default-value="text">${outputType}</outputType>
+  <scope>${scope}</scope>
+  <skip default-value="false">${skip}</skip>
+  <tokens default-value="standard">${tokens}</tokens>
+  <verbose default-value="false">${verbose}</verbose>
+  <project default-value="${project}"/>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=265503, ConflictMarker.markTime=86764, ConflictMarker.nodeCount=3, ConflictIdSorter.graphTime=13410, ConflictIdSorter.topsortTime=6997, ConflictIdSorter.conflictIdCount=2, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=87080, ConflictResolver.conflictItemCount=2, DefaultDependencyCollector.collectTime=1560914, DefaultDependencyCollector.transformTime=473908}
+[DEBUG] zuyu.wzy:moduleone:jar:1.0.1-SNAPSHOT
+[DEBUG]    junit:junit:jar:4.12:compile
+[DEBUG]       org.hamcrest:hamcrest-core:jar:1.3:compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ moduleone ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=165980, ConflictMarker.markTime=56076, ConflictMarker.nodeCount=77, ConflictIdSorter.graphTime=115036, ConflictIdSorter.topsortTime=17684, ConflictIdSorter.conflictIdCount=26, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=530442, ConflictResolver.conflictItemCount=74, DefaultDependencyCollector.collectTime=26328078, DefaultDependencyCollector.transformTime=909095}
+[DEBUG] org.apache.maven.plugins:maven-resources-plugin:jar:2.6
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6:compile
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.0.6:compile
+[DEBUG]          org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.6:compile
+[DEBUG]       commons-cli:commons-cli:jar:1.0:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-monitor:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]       junit:junit:jar:3.8.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:2.0.5:compile
+[DEBUG]    org.apache.maven.shared:maven-filtering:jar:1.1:compile
+[DEBUG]       org.sonatype.plexus:plexus-build-api:jar:0.0.4:compile
+[DEBUG]    org.codehaus.plexus:plexus-interpolation:jar:1.13:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG]   Included: org.apache.maven.plugins:maven-resources-plugin:jar:2.6
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.5
+[DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:1.1
+[DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.13
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.6:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.6, parent: sun.misc.Launcher$AppClassLoader@55f96302]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.6:resources' with basic configurator -->
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = /Users/wangzy/IdeaProjects/wzy/mavenproject/moduleone/target/classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: zuyu.wzy:moduleone:1.0.1-SNAPSHOT @ /Users/wangzy/IdeaProjects/wzy/mavenproject/moduleone/pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /Users/wangzy/IdeaProjects/wzy/mavenproject/moduleone/src/main/resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@64bfd6fd
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used {java.vendor=Oracle Corporation, sun.java.launcher=SUN_STANDARD, env.XPC_SERVICE_NAME=0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, env.LC_TERMINAL_VERSION=3.3.12, verbose=true, env.COLORFGBG=15;0, os.name=Mac OS X, sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/classes, env.TMPDIR=/var/folders/_p/2y9hy3157bj4x79dqsyy2r7m0000gn/T/, env.PWD=/Users/wangzy/IdeaProjects/wzy/mavenproject, env.LANG=zh_CN.UTF-8, env.LESS=-R, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.8.0_151-b12, user.name=wangzy, maven.build.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f), env.USER=wangzy, env.SHELL=/bin/zsh, env.__CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34, env.PATH=/usr/local/maven/apache-maven-3.6.3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:, user.language=zh, sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib, classworlds.conf=/usr/local/maven/apache-maven-3.6.3/bin/m2.conf, env.XPC_FLAGS=0x0, env.LC_CTYPE=zh_CN.UTF-8, java.version=1.8.0_151, user.timezone=, env.ZDOTDIR=, maven.compiler.compilerVersion=1.8, sun.arch.data.model=64, java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/endorsed, sun.cpu.isalist=, sun.jnu.encoding=UTF-8, env.ITERM_SESSION_ID=w0t1p0:D618F21A-F3CA-4225-90AC-51EA08B9B9AC, file.encoding.pkg=sun.io, env.SHLVL=2, env.LOGIN_SHELL=1, file.separator=/, java.specification.name=Java Platform API Specification, maven.conf=/usr/local/maven/apache-maven-3.6.3/conf, java.class.version=52.0, user.country=CN, java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre, env.ZSH=/Users/wangzy/.oh-my-zsh, java.vm.info=mixed mode, env.LOGNAME=wangzy, os.version=10.15.5, maven.compiler.target=1.8, env.TERM_PROGRAM_VERSION=3.3.12, path.separator=:, env.JAVA_MAIN_CLASS_14325=org.codehaus.plexus.classworlds.launcher.Launcher, java.vm.version=25.151-b12, java.awt.printerjob=sun.lwawt.macosx.CPrinterJob, env.TERM=xterm-256color, sun.io.unicode.encoding=UnicodeBig, awt.toolkit=sun.lwawt.macosx.LWCToolkit, env.LSCOLORS=Gxfxcxdxbxegedabagacad, user.home=/Users/wangzy, env.VERSIONER_PYTHON_VERSION=2.7, env.OLDPWD=/Users/wangzy/IdeaProjects/wzy/mavenproject, java.specification.vendor=Oracle Corporation, env.TERM_PROGRAM=iTerm.app, env.PAGER=less, env.LC_TERMINAL=iTerm2, library.jansi.path=/usr/local/maven/apache-maven-3.6.3/lib/jansi-native, java.library.path=/Users/wangzy/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:., java.vendor.url=http://java.oracle.com/, env.MAVEN_CMD_LINE_ARGS= -X compile dependency:tree -Dverbose, java.vm.vendor=Oracle Corporation, gopherProxySet=false, maven.home=/usr/local/maven/apache-maven-3.6.3, java.runtime.name=Java(TM) SE Runtime Environment, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher -X compile dependency:tree -Dverbose, java.class.path=/usr/local/maven/apache-maven-3.6.3/boot/plexus-classworlds-2.6.0.jar, env.TERM_SESSION_ID=w0t1p0:D618F21A-F3CA-4225-90AC-51EA08B9B9AC, maven.version=3.6.3, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.8, sun.cpu.endian=little, sun.os.patch.level=unknown, env.HOME=/Users/wangzy, java.io.tmpdir=/var/folders/_p/2y9hy3157bj4x79dqsyy2r7m0000gn/T/, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, env.M3_HOME=/usr/local/maven/apache-maven-3.6.3, maven.multiModuleProjectDirectory=/Users/wangzy/IdeaProjects/wzy/mavenproject, env.SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.oImwTFZlCK/Listeners, maven.compiler.source=1.8, env.__INTELLIJ_COMMAND_HISTFILE__=/Users/wangzy/Library/Application Support/JetBrains/IntelliJIdea2020.2/terminal/history/history-7, os.arch=x86_64, java.awt.graphicsenv=sun.awt.CGraphicsEnvironment, java.ext.dirs=/Users/wangzy/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java, env.com.apple.java.jvmTask=CommandLine, user.dir=/Users/wangzy/IdeaProjects/wzy/mavenproject, env.JAVA_ARCH=x86_64, line.separator=
+, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, env.COLORTERM=truecolor, env.ITERM_PROFILE=Default, env.TERMINAL_EMULATOR=JetBrains-JediTerm, file.encoding=UTF-8, java.specification.version=1.8, env.MAVEN_PROJECTBASEDIR=/Users/wangzy/IdeaProjects/wzy/mavenproject}
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[DEBUG] resource with targetPath null
+directory /Users/wangzy/IdeaProjects/wzy/mavenproject/moduleone/src/main/resources
+excludes []
+includes []
+[DEBUG] ignoreDelta true
+[INFO] Copying 0 resource
+[DEBUG] no use filter components
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ moduleone ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=250156, ConflictMarker.markTime=112931, ConflictMarker.nodeCount=160, ConflictIdSorter.graphTime=130693, ConflictIdSorter.topsortTime=32579, ConflictIdSorter.conflictIdCount=43, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=804197, ConflictResolver.conflictItemCount=63, DefaultDependencyCollector.collectTime=71191549, DefaultDependencyCollector.transformTime=1349788}
+[DEBUG] org.apache.maven.plugins:maven-compiler-plugin:jar:3.1
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.9:compile
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:1.5.1:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-project:jar:2.0.9:compile
+[DEBUG]          org.apache.maven:maven-plugin-registry:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-toolchain:jar:1.0:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:0.1:compile
+[DEBUG]       com.google.code.findbugs:jsr305:jar:2.0.1:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-incremental:jar:1.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile (version managed from default)
+[DEBUG]    org.codehaus.plexus:plexus-compiler-api:jar:2.2:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-manager:jar:2.2:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-javac:jar:2.2:runtime
+[DEBUG]    org.codehaus.plexus:plexus-container-default:jar:1.5.5:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.2.2:compile
+[DEBUG]       org.apache.xbean:xbean-reflect:jar:3.4:compile
+[DEBUG]          log4j:log4j:jar:1.2.12:compile
+[DEBUG]          commons-logging:commons-logging-api:jar:1.1:compile
+[DEBUG]       com.google.collections:google-collections:jar:1.0:compile
+[DEBUG]       junit:junit:jar:3.8.2:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1
+[DEBUG]   Included: org.apache.maven.plugins:maven-compiler-plugin:jar:3.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.5.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:0.1
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:2.0.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-incremental:jar:1.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-api:jar:2.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-manager:jar:2.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-javac:jar:2.2
+[DEBUG]   Included: org.apache.xbean:xbean-reflect:jar:3.4
+[DEBUG]   Included: log4j:log4j:jar:1.2.12
+[DEBUG]   Included: commons-logging:commons-logging-api:jar:1.1
+[DEBUG]   Included: com.google.collections:google-collections:jar:1.0
+[DEBUG]   Included: junit:junit:jar:3.8.2
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.1:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1, parent: sun.misc.Launcher$AppClassLoader@55f96302]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.1:compile' with basic configurator -->
+[DEBUG]   (f) basedir = /Users/wangzy/IdeaProjects/wzy/mavenproject/moduleone
+[DEBUG]   (f) buildDirectory = /Users/wangzy/IdeaProjects/wzy/mavenproject/moduleone/target
+[DEBUG]   (f) classpathElements = [/Users/wangzy/IdeaProjects/wzy/mavenproject/moduleone/target/classes, /Users/wangzy/.m2/repository/junit/junit/4.12/junit-4.12.jar, /Users/wangzy/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar]
+[DEBUG]   (f) compileSourceRoots = [/Users/wangzy/IdeaProjects/wzy/mavenproject/moduleone/src/main/java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) compilerVersion = 1.8
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedSourcesDirectory = /Users/wangzy/IdeaProjects/wzy/mavenproject/moduleone/target/generated-sources/annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.1:compile {execution: default-compile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = /Users/wangzy/IdeaProjects/wzy/mavenproject/moduleone/target/classes
+[DEBUG]   (f) projectArtifact = zuyu.wzy:moduleone:jar:1.0.1-SNAPSHOT
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 1.8
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) target = 1.8
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) verbose = false
+[DEBUG]   (f) mavenSession = org.apache.maven.execution.MavenSession@64bfd6fd
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@64bfd6fd
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Source directories: [/Users/wangzy/IdeaProjects/wzy/mavenproject/moduleone/src/main/java]
+[DEBUG] Classpath: [/Users/wangzy/IdeaProjects/wzy/mavenproject/moduleone/target/classes
+ /Users/wangzy/.m2/repository/junit/junit/4.12/junit-4.12.jar
+ /Users/wangzy/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar]
+[DEBUG] Output directory: /Users/wangzy/IdeaProjects/wzy/mavenproject/moduleone/target/classes
+[DEBUG] CompilerReuseStrategy: reuseCreated
+[DEBUG] useIncrementalCompilation enabled
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ moduleone ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-dependency-plugin:2.8:tree from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-dependency-plugin:2.8, parent: sun.misc.Launcher$AppClassLoader@55f96302]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-dependency-plugin:2.8:tree' with basic configurator -->
+[DEBUG]   (f) appendOutput = false
+[DEBUG]   (f) localRepository =       id: local
+      url: file:///Users/wangzy/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) outputType = text
+[DEBUG]   (s) skip = false
+[DEBUG]   (f) tokens = standard
+[DEBUG]   (f) verbose = true
+[DEBUG]   (f) project = MavenProject: zuyu.wzy:moduleone:1.0.1-SNAPSHOT @ /Users/wangzy/IdeaProjects/wzy/mavenproject/moduleone/pom.xml
+[DEBUG] -- end configuration --
+[DEBUG] Dependency tree resolution listener events:
+[DEBUG] testArtifact: artifact=zuyu.wzy:moduleone:jar:1.0.1-SNAPSHOT
+[DEBUG] includeArtifact: artifact=zuyu.wzy:moduleone:jar:1.0.1-SNAPSHOT
+[DEBUG] startProcessChildren: artifact=zuyu.wzy:moduleone:jar:1.0.1-SNAPSHOT
+[DEBUG]   testArtifact: artifact=junit:junit:jar:4.12:compile
+[DEBUG]   includeArtifact: artifact=junit:junit:jar:4.12:compile
+[DEBUG]   startProcessChildren: artifact=junit:junit:jar:4.12:compile
+[DEBUG]     testArtifact: artifact=org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]     includeArtifact: artifact=org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]     startProcessChildren: artifact=org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]     endProcessChildren: artifact=org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]   endProcessChildren: artifact=junit:junit:jar:4.12:compile
+[DEBUG] endProcessChildren: artifact=zuyu.wzy:moduleone:jar:1.0.1-SNAPSHOT
+[INFO] zuyu.wzy:moduleone:jar:1.0.1-SNAPSHOT
+[INFO] \- junit:junit:jar:4.12:compile
+[INFO]    \- org.hamcrest:hamcrest-core:jar:1.3:compile
+[INFO] 
+[INFO] -------------------------< zuyu.wzy:moduletwo >-------------------------
+[INFO] Building moduletwo 1.0.0-SNAPSHOT                                  [3/6]
+[INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Resolving plugin prefix dependency from [org.apache.maven.plugins, org.codehaus.mojo]
+[DEBUG] Resolved plugin prefix dependency to org.apache.maven.plugins:maven-dependency-plugin from POM zuyu.wzy:moduletwo:jar:1.0.0-SNAPSHOT
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       zuyu.wzy:moduletwo:1.0.0-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [compile, test]
+[DEBUG] Repositories (dependencies): [cnooc (http://nexus.app-dice.cnooc/repository/maven-public/, default, releases+snapshots), terminus (https://repo.terminus.io/content/groups/public/, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [terminus (https://repo.terminus.io/content/groups/public/, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.6:resources (default-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <supportMultiLineFiltering default-value="false">${maven.resources.supportMultiLineFiltering}</supportMultiLineFiltering>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <classpathElements default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.compileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution>${mojoExecution}</mojoExecution>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <projectArtifact default-value="${project.artifact}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skipMain>${maven.main.skip}</skipMain>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.5">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">${maven.compiler.target}</target>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+  <mavenSession default-value="${session}"/>
+  <session default-value="${session}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-dependency-plugin:2.8:tree (default-cli)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <appendOutput default-value="false">${appendOutput}</appendOutput>
+  <excludes>${excludes}</excludes>
+  <includes>${includes}</includes>
+  <localRepository default-value="${localRepository}"/>
+  <output>${output}</output>
+  <outputFile>${outputFile}</outputFile>
+  <outputType default-value="text">${outputType}</outputType>
+  <scope>${scope}</scope>
+  <skip default-value="false">${skip}</skip>
+  <tokens default-value="standard">${tokens}</tokens>
+  <verbose default-value="false">${verbose}</verbose>
+  <project default-value="${project}"/>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=37579, ConflictMarker.markTime=18183, ConflictMarker.nodeCount=5, ConflictIdSorter.graphTime=5470, ConflictIdSorter.topsortTime=6419, ConflictIdSorter.conflictIdCount=3, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=87798, ConflictResolver.conflictItemCount=4, DefaultDependencyCollector.collectTime=467119, DefaultDependencyCollector.transformTime=172500}
+[DEBUG] zuyu.wzy:moduletwo:jar:1.0.0-SNAPSHOT
+[DEBUG]    zuyu.wzy:moduleone:jar:1.0.1-SNAPSHOT:compile
+[DEBUG]    junit:junit:jar:4.12:compile
+[DEBUG]       org.hamcrest:hamcrest-core:jar:1.3:compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ moduletwo ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.6:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.6, parent: sun.misc.Launcher$AppClassLoader@55f96302]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.6:resources' with basic configurator -->
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = /Users/wangzy/IdeaProjects/wzy/mavenproject/moduletwo/target/classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: zuyu.wzy:moduletwo:1.0.0-SNAPSHOT @ /Users/wangzy/IdeaProjects/wzy/mavenproject/moduletwo/pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /Users/wangzy/IdeaProjects/wzy/mavenproject/moduletwo/src/main/resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@64bfd6fd
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used {java.vendor=Oracle Corporation, sun.java.launcher=SUN_STANDARD, env.XPC_SERVICE_NAME=0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, env.LC_TERMINAL_VERSION=3.3.12, verbose=true, env.COLORFGBG=15;0, os.name=Mac OS X, sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/classes, env.TMPDIR=/var/folders/_p/2y9hy3157bj4x79dqsyy2r7m0000gn/T/, env.PWD=/Users/wangzy/IdeaProjects/wzy/mavenproject, env.LANG=zh_CN.UTF-8, env.LESS=-R, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.8.0_151-b12, user.name=wangzy, maven.build.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f), env.USER=wangzy, env.SHELL=/bin/zsh, env.__CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34, env.PATH=/usr/local/maven/apache-maven-3.6.3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:, user.language=zh, sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib, classworlds.conf=/usr/local/maven/apache-maven-3.6.3/bin/m2.conf, env.XPC_FLAGS=0x0, env.LC_CTYPE=zh_CN.UTF-8, java.version=1.8.0_151, user.timezone=, env.ZDOTDIR=, maven.compiler.compilerVersion=1.8, sun.arch.data.model=64, java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/endorsed, sun.cpu.isalist=, sun.jnu.encoding=UTF-8, env.ITERM_SESSION_ID=w0t1p0:D618F21A-F3CA-4225-90AC-51EA08B9B9AC, file.encoding.pkg=sun.io, env.SHLVL=2, env.LOGIN_SHELL=1, file.separator=/, java.specification.name=Java Platform API Specification, maven.conf=/usr/local/maven/apache-maven-3.6.3/conf, java.class.version=52.0, user.country=CN, java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre, env.ZSH=/Users/wangzy/.oh-my-zsh, java.vm.info=mixed mode, env.LOGNAME=wangzy, os.version=10.15.5, maven.compiler.target=1.8, env.TERM_PROGRAM_VERSION=3.3.12, path.separator=:, env.JAVA_MAIN_CLASS_14325=org.codehaus.plexus.classworlds.launcher.Launcher, java.vm.version=25.151-b12, java.awt.printerjob=sun.lwawt.macosx.CPrinterJob, env.TERM=xterm-256color, sun.io.unicode.encoding=UnicodeBig, awt.toolkit=sun.lwawt.macosx.LWCToolkit, env.LSCOLORS=Gxfxcxdxbxegedabagacad, user.home=/Users/wangzy, env.VERSIONER_PYTHON_VERSION=2.7, env.OLDPWD=/Users/wangzy/IdeaProjects/wzy/mavenproject, java.specification.vendor=Oracle Corporation, env.TERM_PROGRAM=iTerm.app, env.PAGER=less, env.LC_TERMINAL=iTerm2, library.jansi.path=/usr/local/maven/apache-maven-3.6.3/lib/jansi-native, java.library.path=/Users/wangzy/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:., java.vendor.url=http://java.oracle.com/, env.MAVEN_CMD_LINE_ARGS= -X compile dependency:tree -Dverbose, java.vm.vendor=Oracle Corporation, gopherProxySet=false, maven.home=/usr/local/maven/apache-maven-3.6.3, java.runtime.name=Java(TM) SE Runtime Environment, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher -X compile dependency:tree -Dverbose, java.class.path=/usr/local/maven/apache-maven-3.6.3/boot/plexus-classworlds-2.6.0.jar, env.TERM_SESSION_ID=w0t1p0:D618F21A-F3CA-4225-90AC-51EA08B9B9AC, maven.version=3.6.3, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.8, sun.cpu.endian=little, sun.os.patch.level=unknown, env.HOME=/Users/wangzy, java.io.tmpdir=/var/folders/_p/2y9hy3157bj4x79dqsyy2r7m0000gn/T/, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, env.M3_HOME=/usr/local/maven/apache-maven-3.6.3, maven.multiModuleProjectDirectory=/Users/wangzy/IdeaProjects/wzy/mavenproject, env.SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.oImwTFZlCK/Listeners, maven.compiler.source=1.8, env.__INTELLIJ_COMMAND_HISTFILE__=/Users/wangzy/Library/Application Support/JetBrains/IntelliJIdea2020.2/terminal/history/history-7, os.arch=x86_64, java.awt.graphicsenv=sun.awt.CGraphicsEnvironment, java.ext.dirs=/Users/wangzy/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java, env.com.apple.java.jvmTask=CommandLine, user.dir=/Users/wangzy/IdeaProjects/wzy/mavenproject, env.JAVA_ARCH=x86_64, line.separator=
+, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, env.COLORTERM=truecolor, env.ITERM_PROFILE=Default, env.TERMINAL_EMULATOR=JetBrains-JediTerm, file.encoding=UTF-8, java.specification.version=1.8, env.MAVEN_PROJECTBASEDIR=/Users/wangzy/IdeaProjects/wzy/mavenproject}
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[DEBUG] resource with targetPath null
+directory /Users/wangzy/IdeaProjects/wzy/mavenproject/moduletwo/src/main/resources
+excludes []
+includes []
+[DEBUG] ignoreDelta true
+[INFO] Copying 0 resource
+[DEBUG] no use filter components
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ moduletwo ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.1:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1, parent: sun.misc.Launcher$AppClassLoader@55f96302]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.1:compile' with basic configurator -->
+[DEBUG]   (f) basedir = /Users/wangzy/IdeaProjects/wzy/mavenproject/moduletwo
+[DEBUG]   (f) buildDirectory = /Users/wangzy/IdeaProjects/wzy/mavenproject/moduletwo/target
+[DEBUG]   (f) classpathElements = [/Users/wangzy/IdeaProjects/wzy/mavenproject/moduletwo/target/classes, /Users/wangzy/IdeaProjects/wzy/mavenproject/moduleone/target/classes, /Users/wangzy/.m2/repository/junit/junit/4.12/junit-4.12.jar, /Users/wangzy/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar]
+[DEBUG]   (f) compileSourceRoots = [/Users/wangzy/IdeaProjects/wzy/mavenproject/moduletwo/src/main/java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) compilerVersion = 1.8
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedSourcesDirectory = /Users/wangzy/IdeaProjects/wzy/mavenproject/moduletwo/target/generated-sources/annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.1:compile {execution: default-compile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = /Users/wangzy/IdeaProjects/wzy/mavenproject/moduletwo/target/classes
+[DEBUG]   (f) projectArtifact = zuyu.wzy:moduletwo:jar:1.0.0-SNAPSHOT
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 1.8
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) target = 1.8
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) verbose = false
+[DEBUG]   (f) mavenSession = org.apache.maven.execution.MavenSession@64bfd6fd
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@64bfd6fd
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Source directories: [/Users/wangzy/IdeaProjects/wzy/mavenproject/moduletwo/src/main/java]
+[DEBUG] Classpath: [/Users/wangzy/IdeaProjects/wzy/mavenproject/moduletwo/target/classes
+ /Users/wangzy/IdeaProjects/wzy/mavenproject/moduleone/target/classes
+ /Users/wangzy/.m2/repository/junit/junit/4.12/junit-4.12.jar
+ /Users/wangzy/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar]
+[DEBUG] Output directory: /Users/wangzy/IdeaProjects/wzy/mavenproject/moduletwo/target/classes
+[DEBUG] CompilerReuseStrategy: reuseCreated
+[DEBUG] useIncrementalCompilation enabled
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ moduletwo ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-dependency-plugin:2.8:tree from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-dependency-plugin:2.8, parent: sun.misc.Launcher$AppClassLoader@55f96302]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-dependency-plugin:2.8:tree' with basic configurator -->
+[DEBUG]   (f) appendOutput = false
+[DEBUG]   (f) localRepository =       id: local
+      url: file:///Users/wangzy/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) outputType = text
+[DEBUG]   (s) skip = false
+[DEBUG]   (f) tokens = standard
+[DEBUG]   (f) verbose = true
+[DEBUG]   (f) project = MavenProject: zuyu.wzy:moduletwo:1.0.0-SNAPSHOT @ /Users/wangzy/IdeaProjects/wzy/mavenproject/moduletwo/pom.xml
+[DEBUG] -- end configuration --
+[DEBUG] Dependency tree resolution listener events:
+[DEBUG] testArtifact: artifact=zuyu.wzy:moduletwo:jar:1.0.0-SNAPSHOT
+[DEBUG] includeArtifact: artifact=zuyu.wzy:moduletwo:jar:1.0.0-SNAPSHOT
+[DEBUG] startProcessChildren: artifact=zuyu.wzy:moduletwo:jar:1.0.0-SNAPSHOT
+[DEBUG]   testArtifact: artifact=zuyu.wzy:moduleone:jar:1.0.1-SNAPSHOT:compile
+[DEBUG]   includeArtifact: artifact=zuyu.wzy:moduleone:jar:1.0.1-SNAPSHOT:compile
+[DEBUG]   startProcessChildren: artifact=zuyu.wzy:moduleone:jar:1.0.1-SNAPSHOT:compile
+[DEBUG]     testArtifact: artifact=junit:junit:jar:4.12:compile
+[DEBUG]     includeArtifact: artifact=junit:junit:jar:4.12:compile
+[DEBUG]     startProcessChildren: artifact=junit:junit:jar:4.12:compile
+[DEBUG]       testArtifact: artifact=org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]       includeArtifact: artifact=org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]       startProcessChildren: artifact=org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]       endProcessChildren: artifact=org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]     endProcessChildren: artifact=junit:junit:jar:4.12:compile
+[DEBUG]   endProcessChildren: artifact=zuyu.wzy:moduleone:jar:1.0.1-SNAPSHOT:compile
+[DEBUG]   testArtifact: artifact=junit:junit:jar:4.12:compile
+[DEBUG]   omitForNearer: omitted=junit:junit:jar:4.12:compile kept=junit:junit:jar:4.12:compile
+[DEBUG]   includeArtifact: artifact=junit:junit:jar:4.12:compile
+[DEBUG]   startProcessChildren: artifact=junit:junit:jar:4.12:compile
+[DEBUG]     testArtifact: artifact=org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]     includeArtifact: artifact=org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]     startProcessChildren: artifact=org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]     endProcessChildren: artifact=org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]   endProcessChildren: artifact=junit:junit:jar:4.12:compile
+[DEBUG] endProcessChildren: artifact=zuyu.wzy:moduletwo:jar:1.0.0-SNAPSHOT
+[INFO] zuyu.wzy:moduletwo:jar:1.0.0-SNAPSHOT
+[INFO] +- zuyu.wzy:moduleone:jar:1.0.1-SNAPSHOT:compile
+[INFO] |  \- (junit:junit:jar:4.12:compile - omitted for duplicate)
+[INFO] \- junit:junit:jar:4.12:compile
+[INFO]    \- org.hamcrest:hamcrest-core:jar:1.3:compile
+[INFO] 
+[INFO] ------------------------< zuyu.wzy:modulethree >------------------------
+[INFO] Building modulethree 1.0.0-SNAPSHOT                                [4/6]
+[INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Resolving plugin prefix dependency from [org.apache.maven.plugins, org.codehaus.mojo]
+[DEBUG] Resolved plugin prefix dependency to org.apache.maven.plugins:maven-dependency-plugin from POM zuyu.wzy:modulethree:jar:1.0.0-SNAPSHOT
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       zuyu.wzy:modulethree:1.0.0-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [compile, test]
+[DEBUG] Repositories (dependencies): [cnooc (http://nexus.app-dice.cnooc/repository/maven-public/, default, releases+snapshots), terminus (https://repo.terminus.io/content/groups/public/, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [terminus (https://repo.terminus.io/content/groups/public/, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.6:resources (default-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <supportMultiLineFiltering default-value="false">${maven.resources.supportMultiLineFiltering}</supportMultiLineFiltering>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <classpathElements default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.compileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution>${mojoExecution}</mojoExecution>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <projectArtifact default-value="${project.artifact}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skipMain>${maven.main.skip}</skipMain>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.5">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">${maven.compiler.target}</target>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+  <mavenSession default-value="${session}"/>
+  <session default-value="${session}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-dependency-plugin:2.8:tree (default-cli)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <appendOutput default-value="false">${appendOutput}</appendOutput>
+  <excludes>${excludes}</excludes>
+  <includes>${includes}</includes>
+  <localRepository default-value="${localRepository}"/>
+  <output>${output}</output>
+  <outputFile>${outputFile}</outputFile>
+  <outputType default-value="text">${outputType}</outputType>
+  <scope>${scope}</scope>
+  <skip default-value="false">${skip}</skip>
+  <tokens default-value="standard">${tokens}</tokens>
+  <verbose default-value="false">${verbose}</verbose>
+  <project default-value="${project}"/>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=21434, ConflictMarker.markTime=16854, ConflictMarker.nodeCount=7, ConflictIdSorter.graphTime=5894, ConflictIdSorter.topsortTime=9204, ConflictIdSorter.conflictIdCount=4, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=64656, ConflictResolver.conflictItemCount=6, DefaultDependencyCollector.collectTime=430972, DefaultDependencyCollector.transformTime=132387}
+[DEBUG] zuyu.wzy:modulethree:jar:1.0.0-SNAPSHOT
+[DEBUG]    zuyu.wzy:moduletwo:jar:1.0.0-SNAPSHOT:compile
+[DEBUG]       zuyu.wzy:moduleone:jar:1.0.1-SNAPSHOT:compile
+[DEBUG]    junit:junit:jar:4.12:compile
+[DEBUG]       org.hamcrest:hamcrest-core:jar:1.3:compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ modulethree ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.6:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.6, parent: sun.misc.Launcher$AppClassLoader@55f96302]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.6:resources' with basic configurator -->
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = /Users/wangzy/IdeaProjects/wzy/mavenproject/modulethree/target/classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: zuyu.wzy:modulethree:1.0.0-SNAPSHOT @ /Users/wangzy/IdeaProjects/wzy/mavenproject/modulethree/pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /Users/wangzy/IdeaProjects/wzy/mavenproject/modulethree/src/main/resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@64bfd6fd
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used {java.vendor=Oracle Corporation, sun.java.launcher=SUN_STANDARD, env.XPC_SERVICE_NAME=0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, env.LC_TERMINAL_VERSION=3.3.12, verbose=true, env.COLORFGBG=15;0, os.name=Mac OS X, sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/classes, env.TMPDIR=/var/folders/_p/2y9hy3157bj4x79dqsyy2r7m0000gn/T/, env.PWD=/Users/wangzy/IdeaProjects/wzy/mavenproject, env.LANG=zh_CN.UTF-8, env.LESS=-R, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.8.0_151-b12, user.name=wangzy, maven.build.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f), env.USER=wangzy, env.SHELL=/bin/zsh, env.__CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34, env.PATH=/usr/local/maven/apache-maven-3.6.3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:, user.language=zh, sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib, classworlds.conf=/usr/local/maven/apache-maven-3.6.3/bin/m2.conf, env.XPC_FLAGS=0x0, env.LC_CTYPE=zh_CN.UTF-8, java.version=1.8.0_151, user.timezone=, env.ZDOTDIR=, maven.compiler.compilerVersion=1.8, sun.arch.data.model=64, java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/endorsed, sun.cpu.isalist=, sun.jnu.encoding=UTF-8, env.ITERM_SESSION_ID=w0t1p0:D618F21A-F3CA-4225-90AC-51EA08B9B9AC, file.encoding.pkg=sun.io, env.SHLVL=2, env.LOGIN_SHELL=1, file.separator=/, java.specification.name=Java Platform API Specification, maven.conf=/usr/local/maven/apache-maven-3.6.3/conf, java.class.version=52.0, user.country=CN, java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre, env.ZSH=/Users/wangzy/.oh-my-zsh, java.vm.info=mixed mode, env.LOGNAME=wangzy, os.version=10.15.5, maven.compiler.target=1.8, env.TERM_PROGRAM_VERSION=3.3.12, path.separator=:, env.JAVA_MAIN_CLASS_14325=org.codehaus.plexus.classworlds.launcher.Launcher, java.vm.version=25.151-b12, java.awt.printerjob=sun.lwawt.macosx.CPrinterJob, env.TERM=xterm-256color, sun.io.unicode.encoding=UnicodeBig, awt.toolkit=sun.lwawt.macosx.LWCToolkit, env.LSCOLORS=Gxfxcxdxbxegedabagacad, user.home=/Users/wangzy, env.VERSIONER_PYTHON_VERSION=2.7, env.OLDPWD=/Users/wangzy/IdeaProjects/wzy/mavenproject, java.specification.vendor=Oracle Corporation, env.TERM_PROGRAM=iTerm.app, env.PAGER=less, env.LC_TERMINAL=iTerm2, library.jansi.path=/usr/local/maven/apache-maven-3.6.3/lib/jansi-native, java.library.path=/Users/wangzy/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:., java.vendor.url=http://java.oracle.com/, env.MAVEN_CMD_LINE_ARGS= -X compile dependency:tree -Dverbose, java.vm.vendor=Oracle Corporation, gopherProxySet=false, maven.home=/usr/local/maven/apache-maven-3.6.3, java.runtime.name=Java(TM) SE Runtime Environment, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher -X compile dependency:tree -Dverbose, java.class.path=/usr/local/maven/apache-maven-3.6.3/boot/plexus-classworlds-2.6.0.jar, env.TERM_SESSION_ID=w0t1p0:D618F21A-F3CA-4225-90AC-51EA08B9B9AC, maven.version=3.6.3, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.8, sun.cpu.endian=little, sun.os.patch.level=unknown, env.HOME=/Users/wangzy, java.io.tmpdir=/var/folders/_p/2y9hy3157bj4x79dqsyy2r7m0000gn/T/, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, env.M3_HOME=/usr/local/maven/apache-maven-3.6.3, maven.multiModuleProjectDirectory=/Users/wangzy/IdeaProjects/wzy/mavenproject, env.SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.oImwTFZlCK/Listeners, maven.compiler.source=1.8, env.__INTELLIJ_COMMAND_HISTFILE__=/Users/wangzy/Library/Application Support/JetBrains/IntelliJIdea2020.2/terminal/history/history-7, os.arch=x86_64, java.awt.graphicsenv=sun.awt.CGraphicsEnvironment, java.ext.dirs=/Users/wangzy/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java, env.com.apple.java.jvmTask=CommandLine, user.dir=/Users/wangzy/IdeaProjects/wzy/mavenproject, env.JAVA_ARCH=x86_64, line.separator=
+, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, env.COLORTERM=truecolor, env.ITERM_PROFILE=Default, env.TERMINAL_EMULATOR=JetBrains-JediTerm, file.encoding=UTF-8, java.specification.version=1.8, env.MAVEN_PROJECTBASEDIR=/Users/wangzy/IdeaProjects/wzy/mavenproject}
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[DEBUG] resource with targetPath null
+directory /Users/wangzy/IdeaProjects/wzy/mavenproject/modulethree/src/main/resources
+excludes []
+includes []
+[DEBUG] ignoreDelta true
+[INFO] Copying 0 resource
+[DEBUG] no use filter components
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ modulethree ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.1:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1, parent: sun.misc.Launcher$AppClassLoader@55f96302]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.1:compile' with basic configurator -->
+[DEBUG]   (f) basedir = /Users/wangzy/IdeaProjects/wzy/mavenproject/modulethree
+[DEBUG]   (f) buildDirectory = /Users/wangzy/IdeaProjects/wzy/mavenproject/modulethree/target
+[DEBUG]   (f) classpathElements = [/Users/wangzy/IdeaProjects/wzy/mavenproject/modulethree/target/classes, /Users/wangzy/IdeaProjects/wzy/mavenproject/moduletwo/target/classes, /Users/wangzy/IdeaProjects/wzy/mavenproject/moduleone/target/classes, /Users/wangzy/.m2/repository/junit/junit/4.12/junit-4.12.jar, /Users/wangzy/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar]
+[DEBUG]   (f) compileSourceRoots = [/Users/wangzy/IdeaProjects/wzy/mavenproject/modulethree/src/main/java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) compilerVersion = 1.8
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedSourcesDirectory = /Users/wangzy/IdeaProjects/wzy/mavenproject/modulethree/target/generated-sources/annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.1:compile {execution: default-compile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = /Users/wangzy/IdeaProjects/wzy/mavenproject/modulethree/target/classes
+[DEBUG]   (f) projectArtifact = zuyu.wzy:modulethree:jar:1.0.0-SNAPSHOT
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 1.8
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) target = 1.8
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) verbose = false
+[DEBUG]   (f) mavenSession = org.apache.maven.execution.MavenSession@64bfd6fd
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@64bfd6fd
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Source directories: [/Users/wangzy/IdeaProjects/wzy/mavenproject/modulethree/src/main/java]
+[DEBUG] Classpath: [/Users/wangzy/IdeaProjects/wzy/mavenproject/modulethree/target/classes
+ /Users/wangzy/IdeaProjects/wzy/mavenproject/moduletwo/target/classes
+ /Users/wangzy/IdeaProjects/wzy/mavenproject/moduleone/target/classes
+ /Users/wangzy/.m2/repository/junit/junit/4.12/junit-4.12.jar
+ /Users/wangzy/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar]
+[DEBUG] Output directory: /Users/wangzy/IdeaProjects/wzy/mavenproject/modulethree/target/classes
+[DEBUG] CompilerReuseStrategy: reuseCreated
+[DEBUG] useIncrementalCompilation enabled
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ modulethree ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-dependency-plugin:2.8:tree from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-dependency-plugin:2.8, parent: sun.misc.Launcher$AppClassLoader@55f96302]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-dependency-plugin:2.8:tree' with basic configurator -->
+[DEBUG]   (f) appendOutput = false
+[DEBUG]   (f) localRepository =       id: local
+      url: file:///Users/wangzy/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) outputType = text
+[DEBUG]   (s) skip = false
+[DEBUG]   (f) tokens = standard
+[DEBUG]   (f) verbose = true
+[DEBUG]   (f) project = MavenProject: zuyu.wzy:modulethree:1.0.0-SNAPSHOT @ /Users/wangzy/IdeaProjects/wzy/mavenproject/modulethree/pom.xml
+[DEBUG] -- end configuration --
+[DEBUG] Dependency tree resolution listener events:
+[DEBUG] testArtifact: artifact=zuyu.wzy:modulethree:jar:1.0.0-SNAPSHOT
+[DEBUG] includeArtifact: artifact=zuyu.wzy:modulethree:jar:1.0.0-SNAPSHOT
+[DEBUG] startProcessChildren: artifact=zuyu.wzy:modulethree:jar:1.0.0-SNAPSHOT
+[DEBUG]   testArtifact: artifact=zuyu.wzy:moduletwo:jar:1.0.0-SNAPSHOT:compile
+[DEBUG]   includeArtifact: artifact=zuyu.wzy:moduletwo:jar:1.0.0-SNAPSHOT:compile
+[DEBUG]   startProcessChildren: artifact=zuyu.wzy:moduletwo:jar:1.0.0-SNAPSHOT:compile
+[DEBUG]     testArtifact: artifact=zuyu.wzy:moduleone:jar:1.0.1-SNAPSHOT:compile
+[DEBUG]     includeArtifact: artifact=zuyu.wzy:moduleone:jar:1.0.1-SNAPSHOT:compile
+[DEBUG]     startProcessChildren: artifact=zuyu.wzy:moduleone:jar:1.0.1-SNAPSHOT:compile
+[DEBUG]       testArtifact: artifact=junit:junit:jar:4.12:compile
+[DEBUG]       includeArtifact: artifact=junit:junit:jar:4.12:compile
+[DEBUG]       startProcessChildren: artifact=junit:junit:jar:4.12:compile
+[DEBUG]         testArtifact: artifact=org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]         includeArtifact: artifact=org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]         startProcessChildren: artifact=org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]         endProcessChildren: artifact=org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]       endProcessChildren: artifact=junit:junit:jar:4.12:compile
+[DEBUG]     endProcessChildren: artifact=zuyu.wzy:moduleone:jar:1.0.1-SNAPSHOT:compile
+[DEBUG]     testArtifact: artifact=junit:junit:jar:4.12:compile
+[DEBUG]     omitForNearer: omitted=junit:junit:jar:4.12:compile kept=junit:junit:jar:4.12:compile
+[DEBUG]     includeArtifact: artifact=junit:junit:jar:4.12:compile
+[DEBUG]     startProcessChildren: artifact=junit:junit:jar:4.12:compile
+[DEBUG]       testArtifact: artifact=org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]       includeArtifact: artifact=org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]       startProcessChildren: artifact=org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]       endProcessChildren: artifact=org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]     endProcessChildren: artifact=junit:junit:jar:4.12:compile
+[DEBUG]   endProcessChildren: artifact=zuyu.wzy:moduletwo:jar:1.0.0-SNAPSHOT:compile
+[DEBUG]   testArtifact: artifact=junit:junit:jar:4.12:compile
+[DEBUG]   omitForNearer: omitted=junit:junit:jar:4.12:compile kept=junit:junit:jar:4.12:compile
+[DEBUG]   includeArtifact: artifact=junit:junit:jar:4.12:compile
+[DEBUG]   startProcessChildren: artifact=junit:junit:jar:4.12:compile
+[DEBUG]     testArtifact: artifact=org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]     includeArtifact: artifact=org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]     startProcessChildren: artifact=org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]     endProcessChildren: artifact=org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]   endProcessChildren: artifact=junit:junit:jar:4.12:compile
+[DEBUG] endProcessChildren: artifact=zuyu.wzy:modulethree:jar:1.0.0-SNAPSHOT
+[INFO] zuyu.wzy:modulethree:jar:1.0.0-SNAPSHOT
+[INFO] +- zuyu.wzy:moduletwo:jar:1.0.0-SNAPSHOT:compile
+[INFO] |  +- zuyu.wzy:moduleone:jar:1.0.1-SNAPSHOT:compile
+[INFO] |  |  \- (junit:junit:jar:4.12:compile - omitted for duplicate)
+[INFO] |  \- (junit:junit:jar:4.12:compile - omitted for duplicate)
+[INFO] \- junit:junit:jar:4.12:compile
+[INFO]    \- org.hamcrest:hamcrest-core:jar:1.3:compile
+[INFO] 
+[INFO] ------------------------< zuyu.wzy:modulefour >-------------------------
+[INFO] Building modulefour 1.0.0-SNAPSHOT                                 [5/6]
+[INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Resolving plugin prefix dependency from [org.apache.maven.plugins, org.codehaus.mojo]
+[DEBUG] Resolved plugin prefix dependency to org.apache.maven.plugins:maven-dependency-plugin from POM zuyu.wzy:modulefour:jar:1.0.0-SNAPSHOT
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       zuyu.wzy:modulefour:1.0.0-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [compile, test]
+[DEBUG] Repositories (dependencies): [cnooc (http://nexus.app-dice.cnooc/repository/maven-public/, default, releases+snapshots), terminus (https://repo.terminus.io/content/groups/public/, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [terminus (https://repo.terminus.io/content/groups/public/, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.6:resources (default-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <supportMultiLineFiltering default-value="false">${maven.resources.supportMultiLineFiltering}</supportMultiLineFiltering>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <classpathElements default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.compileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution>${mojoExecution}</mojoExecution>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <projectArtifact default-value="${project.artifact}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skipMain>${maven.main.skip}</skipMain>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.5">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">${maven.compiler.target}</target>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+  <mavenSession default-value="${session}"/>
+  <session default-value="${session}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-dependency-plugin:2.8:tree (default-cli)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <appendOutput default-value="false">${appendOutput}</appendOutput>
+  <excludes>${excludes}</excludes>
+  <includes>${includes}</includes>
+  <localRepository default-value="${localRepository}"/>
+  <output>${output}</output>
+  <outputFile>${outputFile}</outputFile>
+  <outputType default-value="text">${outputType}</outputType>
+  <scope>${scope}</scope>
+  <skip default-value="false">${skip}</skip>
+  <tokens default-value="standard">${tokens}</tokens>
+  <verbose default-value="false">${verbose}</verbose>
+  <project default-value="${project}"/>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Skipped remote request for zuyu.wzy:moduleone:1.0.0-SNAPSHOT/maven-metadata.xml locally installed metadata up-to-date.
+[DEBUG] Skipped remote request for zuyu.wzy:moduleone:1.0.0-SNAPSHOT/maven-metadata.xml locally installed metadata up-to-date.
+[DEBUG] Skipped remote request for zuyu.wzy:moduleone:1.0.0-SNAPSHOT/maven-metadata.xml locally installed metadata up-to-date.
+[DEBUG] Skipped remote request for zuyu.wzy:moduleone:1.0.0-SNAPSHOT/maven-metadata.xml locally installed metadata up-to-date.
+[DEBUG] Skipped remote request for zuyu.wzy:mavenproject:1.0.0-SNAPSHOT/maven-metadata.xml locally installed metadata up-to-date.
+[DEBUG] Skipped remote request for zuyu.wzy:mavenproject:1.0.0-SNAPSHOT/maven-metadata.xml locally installed metadata up-to-date.
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=27519, ConflictMarker.markTime=25447, ConflictMarker.nodeCount=5, ConflictIdSorter.graphTime=22286, ConflictIdSorter.topsortTime=7927, ConflictIdSorter.conflictIdCount=3, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=81378, ConflictResolver.conflictItemCount=4, DefaultDependencyCollector.collectTime=15845324, DefaultDependencyCollector.transformTime=180918}
+[DEBUG] zuyu.wzy:modulefour:jar:1.0.0-SNAPSHOT
+[DEBUG]    zuyu.wzy:moduleone:jar:1.0.0-SNAPSHOT:compile
+[DEBUG]    junit:junit:jar:4.12:compile
+[DEBUG]       org.hamcrest:hamcrest-core:jar:1.3:compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ modulefour ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.6:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.6, parent: sun.misc.Launcher$AppClassLoader@55f96302]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.6:resources' with basic configurator -->
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = /Users/wangzy/IdeaProjects/wzy/mavenproject/modulefour/target/classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: zuyu.wzy:modulefour:1.0.0-SNAPSHOT @ /Users/wangzy/IdeaProjects/wzy/mavenproject/modulefour/pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /Users/wangzy/IdeaProjects/wzy/mavenproject/modulefour/src/main/resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@64bfd6fd
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used {java.vendor=Oracle Corporation, sun.java.launcher=SUN_STANDARD, env.XPC_SERVICE_NAME=0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, env.LC_TERMINAL_VERSION=3.3.12, verbose=true, env.COLORFGBG=15;0, os.name=Mac OS X, sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/classes, env.TMPDIR=/var/folders/_p/2y9hy3157bj4x79dqsyy2r7m0000gn/T/, env.PWD=/Users/wangzy/IdeaProjects/wzy/mavenproject, env.LANG=zh_CN.UTF-8, env.LESS=-R, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.8.0_151-b12, user.name=wangzy, maven.build.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f), env.USER=wangzy, env.SHELL=/bin/zsh, env.__CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34, env.PATH=/usr/local/maven/apache-maven-3.6.3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:, user.language=zh, sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib, classworlds.conf=/usr/local/maven/apache-maven-3.6.3/bin/m2.conf, env.XPC_FLAGS=0x0, env.LC_CTYPE=zh_CN.UTF-8, java.version=1.8.0_151, user.timezone=, env.ZDOTDIR=, maven.compiler.compilerVersion=1.8, sun.arch.data.model=64, java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/endorsed, sun.cpu.isalist=, sun.jnu.encoding=UTF-8, env.ITERM_SESSION_ID=w0t1p0:D618F21A-F3CA-4225-90AC-51EA08B9B9AC, file.encoding.pkg=sun.io, env.SHLVL=2, env.LOGIN_SHELL=1, file.separator=/, java.specification.name=Java Platform API Specification, maven.conf=/usr/local/maven/apache-maven-3.6.3/conf, java.class.version=52.0, user.country=CN, java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre, env.ZSH=/Users/wangzy/.oh-my-zsh, java.vm.info=mixed mode, env.LOGNAME=wangzy, os.version=10.15.5, maven.compiler.target=1.8, env.TERM_PROGRAM_VERSION=3.3.12, path.separator=:, env.JAVA_MAIN_CLASS_14325=org.codehaus.plexus.classworlds.launcher.Launcher, java.vm.version=25.151-b12, java.awt.printerjob=sun.lwawt.macosx.CPrinterJob, env.TERM=xterm-256color, sun.io.unicode.encoding=UnicodeBig, awt.toolkit=sun.lwawt.macosx.LWCToolkit, env.LSCOLORS=Gxfxcxdxbxegedabagacad, user.home=/Users/wangzy, env.VERSIONER_PYTHON_VERSION=2.7, env.OLDPWD=/Users/wangzy/IdeaProjects/wzy/mavenproject, java.specification.vendor=Oracle Corporation, env.TERM_PROGRAM=iTerm.app, env.PAGER=less, env.LC_TERMINAL=iTerm2, library.jansi.path=/usr/local/maven/apache-maven-3.6.3/lib/jansi-native, java.library.path=/Users/wangzy/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:., java.vendor.url=http://java.oracle.com/, env.MAVEN_CMD_LINE_ARGS= -X compile dependency:tree -Dverbose, java.vm.vendor=Oracle Corporation, gopherProxySet=false, maven.home=/usr/local/maven/apache-maven-3.6.3, java.runtime.name=Java(TM) SE Runtime Environment, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher -X compile dependency:tree -Dverbose, java.class.path=/usr/local/maven/apache-maven-3.6.3/boot/plexus-classworlds-2.6.0.jar, env.TERM_SESSION_ID=w0t1p0:D618F21A-F3CA-4225-90AC-51EA08B9B9AC, maven.version=3.6.3, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.8, sun.cpu.endian=little, sun.os.patch.level=unknown, env.HOME=/Users/wangzy, java.io.tmpdir=/var/folders/_p/2y9hy3157bj4x79dqsyy2r7m0000gn/T/, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, env.M3_HOME=/usr/local/maven/apache-maven-3.6.3, maven.multiModuleProjectDirectory=/Users/wangzy/IdeaProjects/wzy/mavenproject, env.SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.oImwTFZlCK/Listeners, maven.compiler.source=1.8, env.__INTELLIJ_COMMAND_HISTFILE__=/Users/wangzy/Library/Application Support/JetBrains/IntelliJIdea2020.2/terminal/history/history-7, os.arch=x86_64, java.awt.graphicsenv=sun.awt.CGraphicsEnvironment, java.ext.dirs=/Users/wangzy/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java, env.com.apple.java.jvmTask=CommandLine, user.dir=/Users/wangzy/IdeaProjects/wzy/mavenproject, env.JAVA_ARCH=x86_64, line.separator=
+, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, env.COLORTERM=truecolor, env.ITERM_PROFILE=Default, env.TERMINAL_EMULATOR=JetBrains-JediTerm, file.encoding=UTF-8, java.specification.version=1.8, env.MAVEN_PROJECTBASEDIR=/Users/wangzy/IdeaProjects/wzy/mavenproject}
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[DEBUG] resource with targetPath null
+directory /Users/wangzy/IdeaProjects/wzy/mavenproject/modulefour/src/main/resources
+excludes []
+includes []
+[DEBUG] ignoreDelta true
+[INFO] Copying 0 resource
+[DEBUG] no use filter components
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ modulefour ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.1:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1, parent: sun.misc.Launcher$AppClassLoader@55f96302]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.1:compile' with basic configurator -->
+[DEBUG]   (f) basedir = /Users/wangzy/IdeaProjects/wzy/mavenproject/modulefour
+[DEBUG]   (f) buildDirectory = /Users/wangzy/IdeaProjects/wzy/mavenproject/modulefour/target
+[DEBUG]   (f) classpathElements = [/Users/wangzy/IdeaProjects/wzy/mavenproject/modulefour/target/classes, /Users/wangzy/.m2/repository/zuyu/wzy/moduleone/1.0.0-SNAPSHOT/moduleone-1.0.0-SNAPSHOT.jar, /Users/wangzy/.m2/repository/junit/junit/4.12/junit-4.12.jar, /Users/wangzy/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar]
+[DEBUG]   (f) compileSourceRoots = [/Users/wangzy/IdeaProjects/wzy/mavenproject/modulefour/src/main/java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) compilerVersion = 1.8
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedSourcesDirectory = /Users/wangzy/IdeaProjects/wzy/mavenproject/modulefour/target/generated-sources/annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.1:compile {execution: default-compile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = /Users/wangzy/IdeaProjects/wzy/mavenproject/modulefour/target/classes
+[DEBUG]   (f) projectArtifact = zuyu.wzy:modulefour:jar:1.0.0-SNAPSHOT
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 1.8
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) target = 1.8
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) verbose = false
+[DEBUG]   (f) mavenSession = org.apache.maven.execution.MavenSession@64bfd6fd
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@64bfd6fd
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Source directories: [/Users/wangzy/IdeaProjects/wzy/mavenproject/modulefour/src/main/java]
+[DEBUG] Classpath: [/Users/wangzy/IdeaProjects/wzy/mavenproject/modulefour/target/classes
+ /Users/wangzy/.m2/repository/zuyu/wzy/moduleone/1.0.0-SNAPSHOT/moduleone-1.0.0-SNAPSHOT.jar
+ /Users/wangzy/.m2/repository/junit/junit/4.12/junit-4.12.jar
+ /Users/wangzy/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar]
+[DEBUG] Output directory: /Users/wangzy/IdeaProjects/wzy/mavenproject/modulefour/target/classes
+[DEBUG] CompilerReuseStrategy: reuseCreated
+[DEBUG] useIncrementalCompilation enabled
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ modulefour ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-dependency-plugin:2.8:tree from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-dependency-plugin:2.8, parent: sun.misc.Launcher$AppClassLoader@55f96302]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-dependency-plugin:2.8:tree' with basic configurator -->
+[DEBUG]   (f) appendOutput = false
+[DEBUG]   (f) localRepository =       id: local
+      url: file:///Users/wangzy/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) outputType = text
+[DEBUG]   (s) skip = false
+[DEBUG]   (f) tokens = standard
+[DEBUG]   (f) verbose = true
+[DEBUG]   (f) project = MavenProject: zuyu.wzy:modulefour:1.0.0-SNAPSHOT @ /Users/wangzy/IdeaProjects/wzy/mavenproject/modulefour/pom.xml
+[DEBUG] -- end configuration --
+[DEBUG] Dependency tree resolution listener events:
+[DEBUG] testArtifact: artifact=zuyu.wzy:modulefour:jar:1.0.0-SNAPSHOT
+[DEBUG] includeArtifact: artifact=zuyu.wzy:modulefour:jar:1.0.0-SNAPSHOT
+[DEBUG] startProcessChildren: artifact=zuyu.wzy:modulefour:jar:1.0.0-SNAPSHOT
+[DEBUG]   testArtifact: artifact=zuyu.wzy:moduleone:jar:1.0.0-SNAPSHOT:compile
+[DEBUG]   includeArtifact: artifact=zuyu.wzy:moduleone:jar:1.0.0-SNAPSHOT:compile
+[DEBUG]   startProcessChildren: artifact=zuyu.wzy:moduleone:jar:1.0.0-SNAPSHOT:compile
+[DEBUG]     testArtifact: artifact=junit:junit:jar:4.12:compile
+[DEBUG]     includeArtifact: artifact=junit:junit:jar:4.12:compile
+[DEBUG]     startProcessChildren: artifact=junit:junit:jar:4.12:compile
+[DEBUG]       testArtifact: artifact=org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]       includeArtifact: artifact=org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]       startProcessChildren: artifact=org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]       endProcessChildren: artifact=org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]     endProcessChildren: artifact=junit:junit:jar:4.12:compile
+[DEBUG]   endProcessChildren: artifact=zuyu.wzy:moduleone:jar:1.0.0-SNAPSHOT:compile
+[DEBUG]   testArtifact: artifact=junit:junit:jar:4.12:compile
+[DEBUG]   omitForNearer: omitted=junit:junit:jar:4.12:compile kept=junit:junit:jar:4.12:compile
+[DEBUG]   includeArtifact: artifact=junit:junit:jar:4.12:compile
+[DEBUG]   startProcessChildren: artifact=junit:junit:jar:4.12:compile
+[DEBUG]     testArtifact: artifact=org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]     includeArtifact: artifact=org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]     startProcessChildren: artifact=org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]     endProcessChildren: artifact=org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]   endProcessChildren: artifact=junit:junit:jar:4.12:compile
+[DEBUG] endProcessChildren: artifact=zuyu.wzy:modulefour:jar:1.0.0-SNAPSHOT
+[INFO] zuyu.wzy:modulefour:jar:1.0.0-SNAPSHOT
+[INFO] +- zuyu.wzy:moduleone:jar:1.0.0-SNAPSHOT:compile
+[INFO] |  \- (junit:junit:jar:4.12:compile - omitted for duplicate)
+[INFO] \- junit:junit:jar:4.12:compile
+[INFO]    \- org.hamcrest:hamcrest-core:jar:1.3:compile
+[INFO] 
+[INFO] ------------------------< zuyu.wzy:moduleFive >-------------------------
+[INFO] Building moduleFive 1.0.0-SNAPSHOT                                 [6/6]
+[INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Resolving plugin prefix dependency from [org.apache.maven.plugins, org.codehaus.mojo]
+[DEBUG] Resolved plugin prefix dependency to org.apache.maven.plugins:maven-dependency-plugin from POM zuyu.wzy:moduleFive:jar:1.0.0-SNAPSHOT
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       zuyu.wzy:moduleFive:1.0.0-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [compile, test]
+[DEBUG] Repositories (dependencies): [cnooc (http://nexus.app-dice.cnooc/repository/maven-public/, default, releases+snapshots), terminus (https://repo.terminus.io/content/groups/public/, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [terminus (https://repo.terminus.io/content/groups/public/, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.6:resources (default-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <supportMultiLineFiltering default-value="false">${maven.resources.supportMultiLineFiltering}</supportMultiLineFiltering>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <classpathElements default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.compileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution>${mojoExecution}</mojoExecution>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <projectArtifact default-value="${project.artifact}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skipMain>${maven.main.skip}</skipMain>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.5">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">${maven.compiler.target}</target>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+  <mavenSession default-value="${session}"/>
+  <session default-value="${session}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-dependency-plugin:2.8:tree (default-cli)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <appendOutput default-value="false">${appendOutput}</appendOutput>
+  <excludes>${excludes}</excludes>
+  <includes>${includes}</includes>
+  <localRepository default-value="${localRepository}"/>
+  <output>${output}</output>
+  <outputFile>${outputFile}</outputFile>
+  <outputType default-value="text">${outputType}</outputType>
+  <scope>${scope}</scope>
+  <skip default-value="false">${skip}</skip>
+  <tokens default-value="standard">${tokens}</tokens>
+  <verbose default-value="false">${verbose}</verbose>
+  <project default-value="${project}"/>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=21762, ConflictMarker.markTime=15914, ConflictMarker.nodeCount=13, ConflictIdSorter.graphTime=9880, ConflictIdSorter.topsortTime=8074, ConflictIdSorter.conflictIdCount=6, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=131035, ConflictResolver.conflictItemCount=11, DefaultDependencyCollector.collectTime=533978, DefaultDependencyCollector.transformTime=200226}
+[DEBUG] zuyu.wzy:moduleFive:jar:1.0.0-SNAPSHOT
+[DEBUG]    zuyu.wzy:modulefour:jar:1.0.0-SNAPSHOT:compile
+[DEBUG]       zuyu.wzy:moduleone:jar:1.0.0-SNAPSHOT:compile
+[DEBUG]    zuyu.wzy:modulethree:jar:1.0.0-SNAPSHOT:compile
+[DEBUG]       zuyu.wzy:moduletwo:jar:1.0.0-SNAPSHOT:compile
+[DEBUG]    junit:junit:jar:4.12:compile
+[DEBUG]       org.hamcrest:hamcrest-core:jar:1.3:compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ moduleFive ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.6:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.6, parent: sun.misc.Launcher$AppClassLoader@55f96302]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.6:resources' with basic configurator -->
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = /Users/wangzy/IdeaProjects/wzy/mavenproject/moduleFive/target/classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: zuyu.wzy:moduleFive:1.0.0-SNAPSHOT @ /Users/wangzy/IdeaProjects/wzy/mavenproject/moduleFive/pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /Users/wangzy/IdeaProjects/wzy/mavenproject/moduleFive/src/main/resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@64bfd6fd
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used {java.vendor=Oracle Corporation, sun.java.launcher=SUN_STANDARD, env.XPC_SERVICE_NAME=0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, env.LC_TERMINAL_VERSION=3.3.12, verbose=true, env.COLORFGBG=15;0, os.name=Mac OS X, sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/classes, env.TMPDIR=/var/folders/_p/2y9hy3157bj4x79dqsyy2r7m0000gn/T/, env.PWD=/Users/wangzy/IdeaProjects/wzy/mavenproject, env.LANG=zh_CN.UTF-8, env.LESS=-R, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.8.0_151-b12, user.name=wangzy, maven.build.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f), env.USER=wangzy, env.SHELL=/bin/zsh, env.__CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34, env.PATH=/usr/local/maven/apache-maven-3.6.3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:, user.language=zh, sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib, classworlds.conf=/usr/local/maven/apache-maven-3.6.3/bin/m2.conf, env.XPC_FLAGS=0x0, env.LC_CTYPE=zh_CN.UTF-8, java.version=1.8.0_151, user.timezone=, env.ZDOTDIR=, maven.compiler.compilerVersion=1.8, sun.arch.data.model=64, java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/endorsed, sun.cpu.isalist=, sun.jnu.encoding=UTF-8, env.ITERM_SESSION_ID=w0t1p0:D618F21A-F3CA-4225-90AC-51EA08B9B9AC, file.encoding.pkg=sun.io, env.SHLVL=2, env.LOGIN_SHELL=1, file.separator=/, java.specification.name=Java Platform API Specification, maven.conf=/usr/local/maven/apache-maven-3.6.3/conf, java.class.version=52.0, user.country=CN, java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre, env.ZSH=/Users/wangzy/.oh-my-zsh, java.vm.info=mixed mode, env.LOGNAME=wangzy, os.version=10.15.5, maven.compiler.target=1.8, env.TERM_PROGRAM_VERSION=3.3.12, path.separator=:, env.JAVA_MAIN_CLASS_14325=org.codehaus.plexus.classworlds.launcher.Launcher, java.vm.version=25.151-b12, java.awt.printerjob=sun.lwawt.macosx.CPrinterJob, env.TERM=xterm-256color, sun.io.unicode.encoding=UnicodeBig, awt.toolkit=sun.lwawt.macosx.LWCToolkit, env.LSCOLORS=Gxfxcxdxbxegedabagacad, user.home=/Users/wangzy, env.VERSIONER_PYTHON_VERSION=2.7, env.OLDPWD=/Users/wangzy/IdeaProjects/wzy/mavenproject, java.specification.vendor=Oracle Corporation, env.TERM_PROGRAM=iTerm.app, env.PAGER=less, env.LC_TERMINAL=iTerm2, library.jansi.path=/usr/local/maven/apache-maven-3.6.3/lib/jansi-native, java.library.path=/Users/wangzy/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:., java.vendor.url=http://java.oracle.com/, env.MAVEN_CMD_LINE_ARGS= -X compile dependency:tree -Dverbose, java.vm.vendor=Oracle Corporation, gopherProxySet=false, maven.home=/usr/local/maven/apache-maven-3.6.3, java.runtime.name=Java(TM) SE Runtime Environment, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher -X compile dependency:tree -Dverbose, java.class.path=/usr/local/maven/apache-maven-3.6.3/boot/plexus-classworlds-2.6.0.jar, env.TERM_SESSION_ID=w0t1p0:D618F21A-F3CA-4225-90AC-51EA08B9B9AC, maven.version=3.6.3, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.8, sun.cpu.endian=little, sun.os.patch.level=unknown, env.HOME=/Users/wangzy, java.io.tmpdir=/var/folders/_p/2y9hy3157bj4x79dqsyy2r7m0000gn/T/, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, env.M3_HOME=/usr/local/maven/apache-maven-3.6.3, maven.multiModuleProjectDirectory=/Users/wangzy/IdeaProjects/wzy/mavenproject, env.SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.oImwTFZlCK/Listeners, maven.compiler.source=1.8, env.__INTELLIJ_COMMAND_HISTFILE__=/Users/wangzy/Library/Application Support/JetBrains/IntelliJIdea2020.2/terminal/history/history-7, os.arch=x86_64, java.awt.graphicsenv=sun.awt.CGraphicsEnvironment, java.ext.dirs=/Users/wangzy/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java, env.com.apple.java.jvmTask=CommandLine, user.dir=/Users/wangzy/IdeaProjects/wzy/mavenproject, env.JAVA_ARCH=x86_64, line.separator=
+, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, env.COLORTERM=truecolor, env.ITERM_PROFILE=Default, env.TERMINAL_EMULATOR=JetBrains-JediTerm, file.encoding=UTF-8, java.specification.version=1.8, env.MAVEN_PROJECTBASEDIR=/Users/wangzy/IdeaProjects/wzy/mavenproject}
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[DEBUG] resource with targetPath null
+directory /Users/wangzy/IdeaProjects/wzy/mavenproject/moduleFive/src/main/resources
+excludes []
+includes []
+[DEBUG] ignoreDelta true
+[INFO] Copying 0 resource
+[DEBUG] no use filter components
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ moduleFive ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.1:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1, parent: sun.misc.Launcher$AppClassLoader@55f96302]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.1:compile' with basic configurator -->
+[DEBUG]   (f) basedir = /Users/wangzy/IdeaProjects/wzy/mavenproject/moduleFive
+[DEBUG]   (f) buildDirectory = /Users/wangzy/IdeaProjects/wzy/mavenproject/moduleFive/target
+[DEBUG]   (f) classpathElements = [/Users/wangzy/IdeaProjects/wzy/mavenproject/moduleFive/target/classes, /Users/wangzy/IdeaProjects/wzy/mavenproject/modulefour/target/classes, /Users/wangzy/.m2/repository/zuyu/wzy/moduleone/1.0.0-SNAPSHOT/moduleone-1.0.0-SNAPSHOT.jar, /Users/wangzy/IdeaProjects/wzy/mavenproject/modulethree/target/classes, /Users/wangzy/IdeaProjects/wzy/mavenproject/moduletwo/target/classes, /Users/wangzy/.m2/repository/junit/junit/4.12/junit-4.12.jar, /Users/wangzy/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar]
+[DEBUG]   (f) compileSourceRoots = [/Users/wangzy/IdeaProjects/wzy/mavenproject/moduleFive/src/main/java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) compilerVersion = 1.8
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedSourcesDirectory = /Users/wangzy/IdeaProjects/wzy/mavenproject/moduleFive/target/generated-sources/annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.1:compile {execution: default-compile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = /Users/wangzy/IdeaProjects/wzy/mavenproject/moduleFive/target/classes
+[DEBUG]   (f) projectArtifact = zuyu.wzy:moduleFive:jar:1.0.0-SNAPSHOT
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 1.8
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) target = 1.8
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) verbose = false
+[DEBUG]   (f) mavenSession = org.apache.maven.execution.MavenSession@64bfd6fd
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@64bfd6fd
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Source directories: [/Users/wangzy/IdeaProjects/wzy/mavenproject/moduleFive/src/main/java]
+[DEBUG] Classpath: [/Users/wangzy/IdeaProjects/wzy/mavenproject/moduleFive/target/classes
+ /Users/wangzy/IdeaProjects/wzy/mavenproject/modulefour/target/classes
+ /Users/wangzy/.m2/repository/zuyu/wzy/moduleone/1.0.0-SNAPSHOT/moduleone-1.0.0-SNAPSHOT.jar
+ /Users/wangzy/IdeaProjects/wzy/mavenproject/modulethree/target/classes
+ /Users/wangzy/IdeaProjects/wzy/mavenproject/moduletwo/target/classes
+ /Users/wangzy/.m2/repository/junit/junit/4.12/junit-4.12.jar
+ /Users/wangzy/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar]
+[DEBUG] Output directory: /Users/wangzy/IdeaProjects/wzy/mavenproject/moduleFive/target/classes
+[DEBUG] CompilerReuseStrategy: reuseCreated
+[DEBUG] useIncrementalCompilation enabled
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ moduleFive ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-dependency-plugin:2.8:tree from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-dependency-plugin:2.8, parent: sun.misc.Launcher$AppClassLoader@55f96302]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-dependency-plugin:2.8:tree' with basic configurator -->
+[DEBUG]   (f) appendOutput = false
+[DEBUG]   (f) localRepository =       id: local
+      url: file:///Users/wangzy/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) outputType = text
+[DEBUG]   (s) skip = false
+[DEBUG]   (f) tokens = standard
+[DEBUG]   (f) verbose = true
+[DEBUG]   (f) project = MavenProject: zuyu.wzy:moduleFive:1.0.0-SNAPSHOT @ /Users/wangzy/IdeaProjects/wzy/mavenproject/moduleFive/pom.xml
+[DEBUG] -- end configuration --
+[DEBUG] Dependency tree resolution listener events:
+[DEBUG] testArtifact: artifact=zuyu.wzy:moduleFive:jar:1.0.0-SNAPSHOT
+[DEBUG] includeArtifact: artifact=zuyu.wzy:moduleFive:jar:1.0.0-SNAPSHOT
+[DEBUG] startProcessChildren: artifact=zuyu.wzy:moduleFive:jar:1.0.0-SNAPSHOT
+[DEBUG]   testArtifact: artifact=zuyu.wzy:modulefour:jar:1.0.0-SNAPSHOT:compile
+[DEBUG]   includeArtifact: artifact=zuyu.wzy:modulefour:jar:1.0.0-SNAPSHOT:compile
+[DEBUG]   startProcessChildren: artifact=zuyu.wzy:modulefour:jar:1.0.0-SNAPSHOT:compile
+[DEBUG]     testArtifact: artifact=zuyu.wzy:moduleone:jar:1.0.0-SNAPSHOT:compile
+[DEBUG]     includeArtifact: artifact=zuyu.wzy:moduleone:jar:1.0.0-SNAPSHOT:compile
+[DEBUG]     startProcessChildren: artifact=zuyu.wzy:moduleone:jar:1.0.0-SNAPSHOT:compile
+[DEBUG]       testArtifact: artifact=junit:junit:jar:4.12:compile
+[DEBUG]       includeArtifact: artifact=junit:junit:jar:4.12:compile
+[DEBUG]       startProcessChildren: artifact=junit:junit:jar:4.12:compile
+[DEBUG]         testArtifact: artifact=org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]         includeArtifact: artifact=org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]         startProcessChildren: artifact=org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]         endProcessChildren: artifact=org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]       endProcessChildren: artifact=junit:junit:jar:4.12:compile
+[DEBUG]     endProcessChildren: artifact=zuyu.wzy:moduleone:jar:1.0.0-SNAPSHOT:compile
+[DEBUG]     testArtifact: artifact=junit:junit:jar:4.12:compile
+[DEBUG]     omitForNearer: omitted=junit:junit:jar:4.12:compile kept=junit:junit:jar:4.12:compile
+[DEBUG]     includeArtifact: artifact=junit:junit:jar:4.12:compile
+[DEBUG]     startProcessChildren: artifact=junit:junit:jar:4.12:compile
+[DEBUG]       testArtifact: artifact=org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]       includeArtifact: artifact=org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]       startProcessChildren: artifact=org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]       endProcessChildren: artifact=org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]     endProcessChildren: artifact=junit:junit:jar:4.12:compile
+[DEBUG]   endProcessChildren: artifact=zuyu.wzy:modulefour:jar:1.0.0-SNAPSHOT:compile
+[DEBUG]   testArtifact: artifact=zuyu.wzy:modulethree:jar:1.0.0-SNAPSHOT:compile
+[DEBUG]   includeArtifact: artifact=zuyu.wzy:modulethree:jar:1.0.0-SNAPSHOT:compile
+[DEBUG]   startProcessChildren: artifact=zuyu.wzy:modulethree:jar:1.0.0-SNAPSHOT:compile
+[DEBUG]     testArtifact: artifact=zuyu.wzy:moduletwo:jar:1.0.0-SNAPSHOT:compile
+[DEBUG]     includeArtifact: artifact=zuyu.wzy:moduletwo:jar:1.0.0-SNAPSHOT:compile
+[DEBUG]     startProcessChildren: artifact=zuyu.wzy:moduletwo:jar:1.0.0-SNAPSHOT:compile
+[DEBUG]       testArtifact: artifact=zuyu.wzy:moduleone:jar:1.0.1-SNAPSHOT:compile
+[DEBUG]       omitForNearer: omitted=zuyu.wzy:moduleone:jar:1.0.1-SNAPSHOT:compile kept=zuyu.wzy:moduleone:jar:1.0.0-SNAPSHOT:compile
+[DEBUG]       testArtifact: artifact=junit:junit:jar:4.12:compile
+[DEBUG]       omitForNearer: omitted=junit:junit:jar:4.12:compile kept=junit:junit:jar:4.12:compile
+[DEBUG]     endProcessChildren: artifact=zuyu.wzy:moduletwo:jar:1.0.0-SNAPSHOT:compile
+[DEBUG]     testArtifact: artifact=junit:junit:jar:4.12:compile
+[DEBUG]     omitForNearer: omitted=junit:junit:jar:4.12:compile kept=junit:junit:jar:4.12:compile
+[DEBUG]   endProcessChildren: artifact=zuyu.wzy:modulethree:jar:1.0.0-SNAPSHOT:compile
+[DEBUG]   testArtifact: artifact=junit:junit:jar:4.12:compile
+[DEBUG]   omitForNearer: omitted=junit:junit:jar:4.12:compile kept=junit:junit:jar:4.12:compile
+[DEBUG]   includeArtifact: artifact=junit:junit:jar:4.12:compile
+[DEBUG]   startProcessChildren: artifact=junit:junit:jar:4.12:compile
+[DEBUG]     testArtifact: artifact=org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]     includeArtifact: artifact=org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]     startProcessChildren: artifact=org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]     endProcessChildren: artifact=org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]   endProcessChildren: artifact=junit:junit:jar:4.12:compile
+[DEBUG] endProcessChildren: artifact=zuyu.wzy:moduleFive:jar:1.0.0-SNAPSHOT
+[INFO] zuyu.wzy:moduleFive:jar:1.0.0-SNAPSHOT
+[INFO] +- zuyu.wzy:modulefour:jar:1.0.0-SNAPSHOT:compile
+[INFO] |  +- zuyu.wzy:moduleone:jar:1.0.0-SNAPSHOT:compile
+[INFO] |  |  \- (junit:junit:jar:4.12:compile - omitted for duplicate)
+[INFO] |  \- (junit:junit:jar:4.12:compile - omitted for duplicate)
+[INFO] +- zuyu.wzy:modulethree:jar:1.0.0-SNAPSHOT:compile
+[INFO] |  +- zuyu.wzy:moduletwo:jar:1.0.0-SNAPSHOT:compile
+[INFO] |  |  +- (zuyu.wzy:moduleone:jar:1.0.1-SNAPSHOT:compile - omitted for conflict with 1.0.0-SNAPSHOT)
+[INFO] |  |  \- (junit:junit:jar:4.12:compile - omitted for duplicate)
+[INFO] |  \- (junit:junit:jar:4.12:compile - omitted for duplicate)
+[INFO] \- junit:junit:jar:4.12:compile
+[INFO]    \- org.hamcrest:hamcrest-core:jar:1.3:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] mavenproject 1.0.1-SNAPSHOT ........................ SUCCESS [  0.807 s]
+[INFO] moduleone 1.0.1-SNAPSHOT ........................... SUCCESS [  0.414 s]
+[INFO] moduletwo 1.0.0-SNAPSHOT ........................... SUCCESS [  0.120 s]
+[INFO] modulethree 1.0.0-SNAPSHOT ......................... SUCCESS [  0.126 s]
+[INFO] modulefour 1.0.0-SNAPSHOT .......................... SUCCESS [  0.138 s]
+[INFO] moduleFive 1.0.0-SNAPSHOT .......................... SUCCESS [  0.135 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.040 s
+[INFO] Finished at: 2020-08-13T17:50:03+08:00
+[INFO] ------------------------------------------------------------------------
